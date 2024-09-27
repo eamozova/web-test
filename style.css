@@ -1,0 +1,88 @@
+div {
+    text-align: center;
+}
+
+body {
+    background-image: url("background.jpg");
+}
+
+.navigation {
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(172, 158, 243, 0.419);
+}
+
+#cat {
+    border-style: dashed;
+}
+
+th {
+    background-color: rgba(172, 158, 243, 0.3);
+}
+
+nav {
+    font-size: larger;
+}
+
+.btn-check:checked + .btn.btn-outline-primary {
+    background-color: rgba(172, 158, 243, 0.419);
+    color: black;
+}
+
+.btn.btn-primary {
+    background-color: rgba(172, 158, 243, 0.419);
+    color: black;
+}
+
+table.table-hover {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+tr.table-light > th {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    padding: 5px;
+}
+
+tr.table-light > td {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    padding: 5px;
+}
+
+ul.list-group {
+    width: 50%;
+    margin: auto;
+}
+
+#hobbies {
+    width: 20%;
+}
+
+div.aboutme {
+    font-size: larger;
+}
+
+.container {
+    display: block;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.container > h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav.me-auto {
+    width: fit-content;
+    margin: auto;
+}
