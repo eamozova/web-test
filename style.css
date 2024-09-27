@@ -54,7 +54,7 @@ tr.table-light > th {
 tr.table-light > td {
     border-style: dashed;
     border-width: 2px;
-    border-color: black;
+    border-color: salmon;
     padding: 5px;
 }
 
